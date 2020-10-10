@@ -1,6 +1,10 @@
 library(readxl)
 library(dplyr)
 library(tidyr)
+library(feather)
+
+# paper https://www.nature.com/articles/s41562-020-0886-x
+# BD https://osf.io/esxc4/
 setwd("D:/ABCN/Github/MDv01sesion2_parte-practica/5 Replicación de paper")
 data <-read_feather("pt_replication_modified_exclusions_data.feather")
 
